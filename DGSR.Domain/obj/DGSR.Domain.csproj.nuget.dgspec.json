@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain\\DGSR.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.DBService\\DGSR.DBService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.DBService\\DGSR.DBService.csproj",
+        "projectName": "DGSR.DBService",
+        "projectPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.DBService\\DGSR.DBService.csproj",
+        "packagesPath": "C:\\Users\\Alistair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.DBService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alistair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain.Entities\\DGSR.Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain.Entities\\DGSR.Domain.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain.Entities\\DGSR.Domain.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain.Entities\\DGSR.Domain.Entities.csproj",
+        "projectName": "DGSR.Domain.Entities",
+        "projectPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain.Entities\\DGSR.Domain.Entities.csproj",
+        "packagesPath": "C:\\Users\\Alistair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alistair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Infrastructure.ViewModels\\DGSR.Infrastructure.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Infrastructure.ViewModels\\DGSR.Infrastructure.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain\\DGSR.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain\\DGSR.Domain.csproj",
+        "projectName": "DGSR.Domain",
+        "projectPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain\\DGSR.Domain.csproj",
+        "packagesPath": "C:\\Users\\Alistair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alistair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.DBService\\DGSR.DBService.csproj": {
+                "projectPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.DBService\\DGSR.DBService.csproj"
+              },
+              "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain.Entities\\DGSR.Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Domain.Entities\\DGSR.Domain.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Infrastructure.ViewModels\\DGSR.Infrastructure.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Infrastructure.ViewModels\\DGSR.Infrastructure.ViewModels.csproj",
+        "projectName": "DGSR.Infrastructure.ViewModels",
+        "projectPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Infrastructure.ViewModels\\DGSR.Infrastructure.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Alistair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alistair\\source\\repos\\DGSR\\DGSR.Infrastructure.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alistair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\bin\Debug\netcoreapp2.1\DGSR.Infrastructure.ViewModels.deps.json
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\bin\Debug\netcoreapp2.1\DGSR.Infrastructure.ViewModels.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\bin\Debug\netcoreapp2.1\DGSR.Infrastructure.ViewModels.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Debug\netcoreapp2.1\DGSR.Infrastructure.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Debug\netcoreapp2.1\DGSR.Infrastructure.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Debug\netcoreapp2.1\DGSR.Infrastructure.ViewModels.AssemblyInfo.cs
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Debug\netcoreapp2.1\DGSR.Infrastructure.ViewModels.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Debug\netcoreapp2.1\DGSR.Infrastructure.ViewModels.pdb

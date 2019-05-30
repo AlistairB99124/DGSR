@@ -1,0 +1,17 @@
+:host {
+  mat-card {
+    width: 100%;
+    margin: 10px;
+    mat-card-content {
+      form {
+        padding: 10px 0 10px 0;
+        margin: 10px;
+      }
+      width: 70%;
+    }
+  }
+
+  .save-button {
+    height: 100%;
+  }
+}

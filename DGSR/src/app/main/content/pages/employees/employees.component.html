@@ -1,0 +1,31 @@
+<mat-toolbar fxLayout="row" fxLayoutAlign="end center">
+  <button
+  matTooltip="Cancel"
+    *ngIf="type === 'detail'"
+    mat-button 
+    mat-icon-button 
+    (click)="cancel()">
+    <mat-icon>clear</mat-icon>
+  </button>
+  <button
+  matTooltip="Add new employee"
+    mat-button 
+    mat-icon-button 
+    (click)="addEmployee()">
+    <mat-icon>add</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-divider></mat-divider>
+<div fxLayout="row">
+  <div fxLayout="column" fxFlex>
+    <app-detail-employee
+      [employee]="selectedEmployee"
+      (save)="saveEmployee()"
+      *ngIf="type === 'detail'"></app-detail-employee>
+    <app-list-employee 
+      (setEmployee)="setEmployee($event)"
+      *ngIf="type === 'list'"></app-list-employee>
+
+  </div>
+
+</div>
