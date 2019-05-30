@@ -8,7 +8,8 @@ import {BehaviorSubject, Observable} from 'rxjs';
 import { Employee } from 'src/app/core/models/employee.model';
 import { Designation } from 'src/app/core/models/designation.enum';
 import { EmploymentType } from 'src/app/core/models/employment-type.enum';
-import { MatSort, MatTableDataSource } from '@angular/material';
+import { MatSort } from '@angular/material/sort';
+import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'app-list-employee',

@@ -3,7 +3,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexModule, FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { MatTooltipModule, MatTableModule, MatSortModule, MatCheckboxModule, MatTabsModule } from '@angular/material';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSortModule } from '@angular/material/sort';
+import { MatTableModule } from '@angular/material/table';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { EmployeesComponent } from './employees.component';
 import { MaterialModule } from 'src/app/core/material/material.module';
