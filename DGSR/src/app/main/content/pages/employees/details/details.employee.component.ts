@@ -35,7 +35,8 @@ export class DetailEmployeeComponent implements OnInit {
       employmentType: [10001],
       designation: [null],
       nationality: [],
-      active: [true]
+      active: [true],
+      wage: [0]
     });
     this.bankAddForm = this.formBuilder.group({
       id: [0],
@@ -54,7 +55,8 @@ export class DetailEmployeeComponent implements OnInit {
         employmentType: this.employee.employmentType,
         designation: this.employee.designation,
         nationality: this.employee.nationality,
-        active: this.employee.active
+        active: this.employee.active,
+        wage: this.employee.wage
       });
       this.bankAddForm.setValue({
         id: this.employee.bank.id,

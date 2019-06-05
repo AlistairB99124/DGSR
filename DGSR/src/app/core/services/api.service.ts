@@ -8,7 +8,7 @@ import { Employee } from '../models/employee.model';
 })
 export class ApiService {
 
-  private apiRoot = 'https://localhost:44382/api/';
+  private apiRoot = 'https://api.xataris.co.uk/api/';
 
   constructor (private http: HttpClient) { }
 

@@ -1,0 +1,14 @@
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\bin\Release\netcoreapp2.2\DGSR.DBService.deps.json
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\bin\Release\netcoreapp2.2\DGSR.DBService.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\bin\Release\netcoreapp2.2\DGSR.DBService.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\bin\Release\netcoreapp2.2\DGSR.Domain.Entities.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\bin\Release\netcoreapp2.2\DGSR.Infrastructure.ViewModels.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\bin\Release\netcoreapp2.2\DGSR.Domain.Entities.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\bin\Release\netcoreapp2.2\DGSR.Infrastructure.ViewModels.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\obj\Release\netcoreapp2.2\DGSR.DBService.csprojAssemblyReference.cache
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\obj\Release\netcoreapp2.2\DGSR.DBService.csproj.CoreCompileInputs.cache
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\obj\Release\netcoreapp2.2\DGSR.DBService.AssemblyInfoInputs.cache
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\obj\Release\netcoreapp2.2\DGSR.DBService.AssemblyInfo.cs
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\obj\Release\netcoreapp2.2\DGSR.DBService.csproj.CopyComplete
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\obj\Release\netcoreapp2.2\DGSR.DBService.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.DBService\obj\Release\netcoreapp2.2\DGSR.DBService.pdb

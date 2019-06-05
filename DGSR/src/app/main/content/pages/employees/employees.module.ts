@@ -14,6 +14,8 @@ import { MaterialModule } from 'src/app/core/material/material.module';
 import { ApiService } from 'src/app/core/services/api.service';
 import { DetailEmployeeComponent } from './details/details.employee.component';
 import { ListEmployeeComponent } from './list/list.employee.component';
+import { AppRoutingModule } from 'src/app/app-routing.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [

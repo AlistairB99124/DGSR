@@ -79,9 +79,70 @@ namespace DGSR.DBService.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<decimal>("Wage")
+                        .HasColumnType("decimal(5)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("DGSR.Domain.Entities.PaySlip", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<decimal>("AmountPaid")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("DateTime");
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("GrossPay")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("HoursDouble")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("HoursEffective")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("HoursLeave")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("HoursNormal")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("HoursOneHalf")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("HoursOneThird")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("LoanRepay")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("NetPay")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("PAYE")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("RelocationAllowance")
+                        .HasColumnType("decimal(8)");
+
+                    b.Property<decimal>("SNPF")
+                        .HasColumnType("decimal(8)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("PaySlips");
                 });
 
             modelBuilder.Entity("DGSR.Domain.Entities.User", b =>
@@ -254,6 +315,14 @@ namespace DGSR.DBService.Migrations
                     b.HasOne("DGSR.Domain.Entities.Employee", "Employee")
                         .WithOne("Bank")
                         .HasForeignKey("DGSR.Domain.Entities.Bank", "EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("DGSR.Domain.Entities.PaySlip", b =>
+                {
+                    b.HasOne("DGSR.Domain.Entities.Employee", "Employee")
+                        .WithMany("PaySlips")
+                        .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 

@@ -1,4 +1,5 @@
 ﻿using DGSR.Infrastructure.ViewModels.Enums;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -6,6 +7,12 @@ namespace DGSR.Domain.Entities
 {
     public class Employee
     {
+
+        public Employee()
+        {
+            this.PaySlips = new HashSet<PaySlip>();
+        }
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Display(Name = "Id")]
@@ -34,10 +41,16 @@ namespace DGSR.Domain.Entities
         [Column(TypeName = "nvarchar(100)")]
         [Display(Name = "Nationality")]
         public string Nationality { get; set; }
+        [Required]
+        [Column(TypeName = "decimal(5)")]
+        [Display(Name = "Wage")]
+        public decimal Wage { get; set; }
         public virtual Bank Bank { get; set; }
         [Required]
         [Column(TypeName = "bit")]
         [Display(Name = "Active")]
         public bool Active { get; set; }
+
+        public virtual ICollection<PaySlip> PaySlips { get; set; }
     }
 }

@@ -18,5 +18,7 @@ namespace DGSR.DBService.Context
 
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Bank> Banks { get; set; }
+        public DbSet<PaySlip> PaySlips { get; set; }
+
     }
 }

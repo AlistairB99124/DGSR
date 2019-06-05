@@ -99,7 +99,8 @@ namespace DGSR.Application.Implementations
                     Id = s.Id,
                     LastName = s.LastName,
                     Nationality = s.Nationality,
-                    Active = s.Active
+                    Active = s.Active,
+                    Wage = s.Wage
                 }).ToArrayAsync();
             }
             catch

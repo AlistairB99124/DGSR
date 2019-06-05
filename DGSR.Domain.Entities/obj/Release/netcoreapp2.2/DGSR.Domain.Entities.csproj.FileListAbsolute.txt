@@ -1,0 +1,12 @@
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\bin\Release\netcoreapp2.2\DGSR.Domain.Entities.deps.json
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\bin\Release\netcoreapp2.2\DGSR.Domain.Entities.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\bin\Release\netcoreapp2.2\DGSR.Domain.Entities.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\bin\Release\netcoreapp2.2\DGSR.Infrastructure.ViewModels.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\bin\Release\netcoreapp2.2\DGSR.Infrastructure.ViewModels.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\obj\Release\netcoreapp2.2\DGSR.Domain.Entities.csprojAssemblyReference.cache
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\obj\Release\netcoreapp2.2\DGSR.Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\obj\Release\netcoreapp2.2\DGSR.Domain.Entities.AssemblyInfoInputs.cache
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\obj\Release\netcoreapp2.2\DGSR.Domain.Entities.AssemblyInfo.cs
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\obj\Release\netcoreapp2.2\DGSR.Domain.Entities.csproj.CopyComplete
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\obj\Release\netcoreapp2.2\DGSR.Domain.Entities.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain.Entities\obj\Release\netcoreapp2.2\DGSR.Domain.Entities.pdb

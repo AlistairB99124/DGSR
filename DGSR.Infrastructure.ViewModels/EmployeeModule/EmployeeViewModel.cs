@@ -13,5 +13,6 @@ namespace DGSR.Infrastructure.ViewModels.EmployeeModule
         public string Nationality { get; set; }
         public Bank Bank { get; set; }
         public bool Active { get; set; }
+        public decimal Wage { get; set; }
     }
 }

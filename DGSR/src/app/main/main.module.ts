@@ -4,10 +4,11 @@ import { AppRoutingModule } from '../app-routing.module';
 import { MaterialModule } from '../core/material/material.module';
 import { ContentComponent } from './content/content.component';
 import { EmployeesModule } from './content/pages/employees/employees.module';
+import { WagesModule } from './content/pages/wages/wages.module';
 
 @NgModule({
   declarations: [MainComponent, ContentComponent],
-  imports: [AppRoutingModule, MaterialModule, EmployeesModule],
+  imports: [AppRoutingModule, MaterialModule, EmployeesModule, WagesModule],
   exports: [MainComponent]
 })
 export class MainModule { }
