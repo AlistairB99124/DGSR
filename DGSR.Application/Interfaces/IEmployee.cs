@@ -11,7 +11,7 @@ namespace DGSR.Application.Interfaces
         Task<bool> Create(EmployeeViewModel employee);
         Task<bool> Update(EmployeeViewModel employee);
         Task<EmployeeViewModel> Read(int id);
-        Task<EmployeeViewModel[]> Read();
+        Task<EmployeeViewModel[]> Read(bool? Active);
         Task<bool> Delete(int id);
     }
 }

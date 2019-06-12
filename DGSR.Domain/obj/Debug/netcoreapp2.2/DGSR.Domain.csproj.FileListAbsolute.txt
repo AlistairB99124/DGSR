@@ -1,6 +1,3 @@
-C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.Domain.deps.json
-C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.Domain.dll
-C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.Domain.pdb
 C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.DBService.dll
 C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.Domain.Entities.dll
 C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.Infrastructure.ViewModels.dll
@@ -11,6 +8,9 @@ C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\obj\Debug\netcoreapp2.2\DGSR.Dom
 C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\obj\Debug\netcoreapp2.2\DGSR.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\obj\Debug\netcoreapp2.2\DGSR.Domain.AssemblyInfoInputs.cache
 C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\obj\Debug\netcoreapp2.2\DGSR.Domain.AssemblyInfo.cs
-C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\obj\Debug\netcoreapp2.2\DGSR.Domain.csproj.CopyComplete
 C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\obj\Debug\netcoreapp2.2\DGSR.Domain.dll
 C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\obj\Debug\netcoreapp2.2\DGSR.Domain.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.Domain.deps.json
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.Domain.dll
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\bin\Debug\netcoreapp2.2\DGSR.Domain.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.Domain\obj\Debug\netcoreapp2.2\DGSR.Domain.csproj.CopyComplete

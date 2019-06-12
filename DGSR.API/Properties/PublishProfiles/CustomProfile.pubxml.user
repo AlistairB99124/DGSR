@@ -17,46 +17,46 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/25/2019 10:52:50</publishTime>
     </File>
     <File Include="DGSR.API.deps.json">
-      <publishTime>06/04/2019 23:16:19</publishTime>
+      <publishTime>06/11/2019 10:50:00</publishTime>
     </File>
     <File Include="DGSR.API.dll">
-      <publishTime>06/04/2019 23:16:18</publishTime>
+      <publishTime>06/11/2019 10:49:57</publishTime>
     </File>
     <File Include="DGSR.API.pdb">
-      <publishTime>06/04/2019 23:16:18</publishTime>
+      <publishTime>06/11/2019 10:49:57</publishTime>
     </File>
     <File Include="DGSR.API.runtimeconfig.json">
-      <publishTime>06/04/2019 23:16:19</publishTime>
+      <publishTime>06/11/2019 10:50:00</publishTime>
     </File>
     <File Include="DGSR.Application.dll">
-      <publishTime>06/04/2019 23:15:45</publishTime>
+      <publishTime>06/11/2019 10:46:32</publishTime>
     </File>
     <File Include="DGSR.Application.pdb">
-      <publishTime>06/04/2019 23:15:45</publishTime>
+      <publishTime>06/11/2019 10:46:32</publishTime>
     </File>
     <File Include="DGSR.DBService.dll">
-      <publishTime>06/04/2019 23:15:43</publishTime>
+      <publishTime>06/11/2019 10:46:31</publishTime>
     </File>
     <File Include="DGSR.DBService.pdb">
-      <publishTime>06/04/2019 23:15:43</publishTime>
+      <publishTime>06/11/2019 10:46:31</publishTime>
     </File>
     <File Include="DGSR.Domain.dll">
-      <publishTime>06/04/2019 23:15:44</publishTime>
+      <publishTime>06/11/2019 10:46:31</publishTime>
     </File>
     <File Include="DGSR.Domain.Entities.dll">
-      <publishTime>06/04/2019 23:15:42</publishTime>
+      <publishTime>06/11/2019 10:46:30</publishTime>
     </File>
     <File Include="DGSR.Domain.Entities.pdb">
-      <publishTime>06/04/2019 23:15:42</publishTime>
+      <publishTime>06/11/2019 10:46:30</publishTime>
     </File>
     <File Include="DGSR.Domain.pdb">
-      <publishTime>06/04/2019 23:15:44</publishTime>
+      <publishTime>06/11/2019 10:46:31</publishTime>
     </File>
     <File Include="DGSR.Infrastructure.ViewModels.dll">
-      <publishTime>06/04/2019 23:15:41</publishTime>
+      <publishTime>06/11/2019 10:46:30</publishTime>
     </File>
     <File Include="DGSR.Infrastructure.ViewModels.pdb">
-      <publishTime>06/04/2019 23:15:41</publishTime>
+      <publishTime>06/11/2019 10:46:30</publishTime>
     </File>
     <File Include="dotnet-aspnet-codegenerator-design.dll">
       <publishTime>03/02/2019 19:52:30</publishTime>
@@ -125,7 +125,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/11/2018 13:48:42</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>06/04/2019 23:16:19</publishTime>
+      <publishTime>06/11/2019 10:50:00</publishTime>
     </File>
   </ItemGroup>
 </Project>

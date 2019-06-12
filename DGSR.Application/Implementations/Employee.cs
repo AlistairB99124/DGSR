@@ -78,11 +78,11 @@ namespace DGSR.Application.Implementations
             }
         }
 
-        public async Task<EmployeeViewModel[]> Read()
+        public async Task<EmployeeViewModel[]> Read(bool? Active)
         {
             try
             {
-                return await _context.Employees.Select(s => new EmployeeViewModel
+                var result = _context.Employees.Select(s => new EmployeeViewModel
                 {
 
                     EmployeeId = s.EmployeeId,
@@ -101,7 +101,14 @@ namespace DGSR.Application.Implementations
                     Nationality = s.Nationality,
                     Active = s.Active,
                     Wage = s.Wage
-                }).ToArrayAsync();
+                });
+                if (Active == true)
+                {
+                    return await result.Where(x => x.Active == Active).ToArrayAsync();
+                } else
+                {
+                    return await result.ToArrayAsync();
+                }
             }
             catch
             {

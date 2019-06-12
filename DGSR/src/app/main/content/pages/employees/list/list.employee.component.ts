@@ -21,6 +21,7 @@ export class ListEmployeeComponent implements OnInit {
   @Output() public setEmployee = new EventEmitter<Employee>();
 
   public dataSource;
+  public loading = true;
 
   public designation = Designation;
   public employmentType = EmploymentType;
@@ -32,6 +33,7 @@ export class ListEmployeeComponent implements OnInit {
   public ngOnInit(): void {
     this.apiService.getEmployees().then((response) => {
       this.dataSource = new MatTableDataSource(response);
+      this.loading = false;
     });
   }
 

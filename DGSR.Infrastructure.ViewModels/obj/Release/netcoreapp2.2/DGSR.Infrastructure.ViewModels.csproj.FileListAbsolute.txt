@@ -6,3 +6,4 @@ C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Release\n
 C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Release\netcoreapp2.2\DGSR.Infrastructure.ViewModels.AssemblyInfo.cs
 C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Release\netcoreapp2.2\DGSR.Infrastructure.ViewModels.dll
 C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Release\netcoreapp2.2\DGSR.Infrastructure.ViewModels.pdb
+C:\Users\Alistair\source\repos\DGSR\DGSR.Infrastructure.ViewModels\obj\Release\netcoreapp2.2\DGSR.Infrastructure.ViewModels.csprojAssemblyReference.cache

@@ -9,6 +9,7 @@ import { Employee } from '../models/employee.model';
 export class ApiService {
 
   private apiRoot = 'https://api.xataris.co.uk/api/';
+  private local = 'https://localhost:44382/api/';
 
   constructor (private http: HttpClient) { }
 
@@ -22,9 +23,10 @@ export class ApiService {
     }
   }
 
-  public getEmployees = async (): Promise<Employee[]> => {
+  public getEmployees = async (active?: Boolean): Promise<Employee[]> => {
     try {
-      return this.http.post<Employee[]>(`${this.apiRoot}Employee/ReadAll`, null)
+      const input = { Active: active ? true : false };
+      return this.http.post<Employee[]>(`${this.apiRoot}Employee/ReadAll`, input)
         .toPromise();
     } catch (error) {
       console.log(error);

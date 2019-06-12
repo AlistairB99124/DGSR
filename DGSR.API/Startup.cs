@@ -34,7 +34,7 @@ namespace DGSR.API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddCors(options => options.AddPolicy("Cors", builder =>
             {
-                builder.WithOrigins("https://www.xataris.co.uk", "http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+                builder.WithOrigins("https://www.xataris.co.uk", "http://www.xataris.co.uk", "http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
             }));
             services.AddDbContext<DGSRContext>(options =>
                 options.UseSqlServer(Configuration["database:connection"]));

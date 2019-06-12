@@ -13,6 +13,7 @@ import { MaterialModule } from 'src/app/core/material/material.module';
 import { ApiService } from 'src/app/core/services/api.service';
 import { WagesComponent, EmployeeDetailDialogComponent } from './wages.component';
 import { MatInputModule, MatButtonModule } from '@angular/material';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,9 @@ import { MatInputModule, MatButtonModule } from '@angular/material';
     MatCheckboxModule,
     MatTabsModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTooltipModule,
+    MatProgressBarModule
   ],
   exports: [WagesComponent],
   providers: [

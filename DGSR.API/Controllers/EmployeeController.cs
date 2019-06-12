@@ -42,9 +42,9 @@ namespace DGSR.API.Controllers
         }
 
         [HttpPost("ReadAll")]
-        public async Task<JsonResult> ReadAll()
+        public async Task<JsonResult> ReadAll([FromBody] ActiveInput input)
         {
-            var result = await _employee.Read();
+            var result = await _employee.Read(input.Active);
             return GenerateResult(result);
         }
 

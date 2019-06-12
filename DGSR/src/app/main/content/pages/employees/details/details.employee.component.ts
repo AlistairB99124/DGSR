@@ -21,6 +21,7 @@ export class DetailEmployeeComponent implements OnInit {
   public countries = countries;
   public employmentTypes = employmentTypes;
   public designations = designations;
+  public loading = true;
 
   constructor(private formBuilder: FormBuilder, private apiService: ApiService) {
 
@@ -65,6 +66,7 @@ export class DetailEmployeeComponent implements OnInit {
         sortCode: this.employee.bank.sortCode
       });
     }
+    this.loading = false;
   }
 
   public saveNewEmployee = async () => {

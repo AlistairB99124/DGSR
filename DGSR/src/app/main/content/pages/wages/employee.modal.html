@@ -1,8 +1,11 @@
 <mat-card>
   <mat-card-title>
-    {{data.employee.firstName + ' ' + data.employee.lastName}}
+    Employee Details
   </mat-card-title>
   <mat-card-content>
+        <legend *ngFor="let prop of employeeFields">
+          <label fxFlex>{{prop.name}}</label><span>{{prop.field}}</span>
+        </legend>
     
   </mat-card-content>
 </mat-card>

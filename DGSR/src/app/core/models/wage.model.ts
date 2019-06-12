@@ -53,24 +53,26 @@ export class Wage extends PaySlip {
 
 
   public get amountTaxable(): number {
-    return this.grossAmount - this.snpf;
+    return this.grossAmount - (this.employee.nationality === 'Swaziland' ? this.snpf : 0);
   }
 
   public get pAYE(): number {
     const annualTaxable = this.amountTaxable * 12;
-    if (annualTaxable < 100000) {
+    let annualTax = 0;
+    if (annualTaxable <= 100000) {
       if (annualTaxable > REBATE) {
-        return (0.2 * (annualTaxable - REBATE)) / 12;
+        annualTax = ((0.2 * (annualTaxable - REBATE)) - REBATE) / 12;
       } else {
-        return 0;
+        annualTax = 0;
       }
-    } else if (annualTaxable >= 100000 && annualTaxable < 150000) {
-      return (20000 + 0.25 * (annualTaxable - 100000)) / 12;
-    } else if (annualTaxable >= 150000 && annualTaxable < 200000) {
-      return (32500 + 0.30 * (annualTaxable - 150000)) / 12;
+    } else if (annualTaxable > 100000 && annualTaxable <= 150000) {
+      annualTax = ((20000 + 0.25 * (annualTaxable - 100000)) - REBATE) / 12;
+    } else if (annualTaxable > 150000 && annualTaxable <= 200000) {
+      annualTax = ((32500 + 0.30 * (annualTaxable - 150000)) - REBATE) / 12;
     } else {
-      return (47500 + 0.33 * (annualTaxable - 200000)) / 12;
+      annualTax = ((47500 + 0.33 * (annualTaxable - 200000)) - REBATE) / 12;
     }
+    return annualTax;
   }
 
   public get employerPAYE(): number {
